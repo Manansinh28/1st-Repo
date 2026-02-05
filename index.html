@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Happy Birthday ❤️</title>
+    <title>For Someone Special 🌸</title>
 
     <style>
         body {
-            background-color: #fff0b3;
+            background-color: #e6f7ff;
             font-family: Arial;
             text-align: center;
-            padding-top: 100px;
+            padding-top: 80px;
         }
 
         .box {
             background: white;
-            width: 60%;
+            width: 65%;
             margin: auto;
-            padding: 30px;
+            padding: 40px;
             border-radius: 20px;
-            box-shadow: 0px 0px 10px gray;
+            box-shadow: 0px 0px 15px gray;
         }
 
         button {
@@ -30,16 +30,22 @@
         }
 
         #yes {
-            background-color: lightgreen;
+            background-color: #90ee90;
         }
 
         #no {
-            background-color: lightcoral;
+            background-color: #ff9999;
             position: absolute;
         }
 
         h1 {
             color: #ff4081;
+        }
+
+        #message {
+            font-size: 20px;
+            color: #333;
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -49,10 +55,12 @@
 <div class="box">
     <h1>Happy Birthday 🎂</h1>
 
-    <h2>Do you want a big birthday surprise? 🎁</h2>
+    <h2>You are a very special friend to me 🌸</h2>
 
-    <button id="yes" onclick="yesClick()">YES 😍</button>
-    <button id="no" onmouseover="moveNo()">NO 😜</button>
+    <p>Do you want to see a small surprise I made for you?</p>
+
+    <button id="yes" onclick="yesClick()">YES 😊</button>
+    <button id="no" onmouseover="moveNo()">NO 😄</button>
 
     <p id="message"></p>
 </div>
@@ -60,7 +68,7 @@
 <script>
     function yesClick() {
         document.getElementById("message").innerHTML =
-        "Yayyy! 🎉🎂 You are the most special person in my life! Happy Birthday! ❤️";
+        "Yay! 🎉<br><br>You are one of the kindest and sweetest people I know.<br>Thank you for always being there, for all the laughs and memories.<br><br>I hope this birthday brings you endless happiness, success, and smiles! 😊💖<br><br>Happy Birthday to an amazing friend!";
     }
 
     function moveNo() {
